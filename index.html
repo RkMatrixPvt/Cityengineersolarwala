@@ -1,164 +1,367 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link rel="icon" type="image/png" href="images/logo/Cityengineersolarwala.png" />
-  <title>City Engineer Solarwala</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="images/logo/Cityengineersolarwala.png" />
+    <title>City Engineer Solarwala</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-  <header>
-    <div class="logo">
-      <img src="images/logo/Cityengineersolarwala.png" alt="City Engineer Solarwala Logo">
-      <div class="logo-text">
-        <strong>City Engineer Solarwala</strong>
-        <span>SOLAR की सही जानकारी है पाना तो...</span>
-      </div>
+    <!-- Toll-Free Top Bar with Social Icons -->
+    <div class="tollfree-top-bar">
+        <div style="display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: auto;">
+            <div>
+                <i class="fas fa-headset"></i> Toll-Free: <strong class="tollfree-number">033-690-28678</strong>
+            </div>
+            <div class="social-icons">
+                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/cityengineersolarwala/reel/C4LW_WJvPQa/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/917607646823" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
     </div>
-    <button class="menu-toggle" aria-label="Toggle menu"><i class="fas fa-bars"></i></button>
-    <nav class="nav-links">
-      <a href="#home">Home</a>
-      <a href="#services">Services</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
 
-  <section id="home" class="hero">
-    <h1>Empowering India with Clean Solar Energy</h1>
-  </section>
+    <header>
+        <div class="logo">
+            <img src="images/logo/Cityengineersolarwala.png" alt="City Engineer Solarwala Logo">
+            <div class="logo-text">
+                <strong>City Engineer Solarwala</strong>
+                <span>SOLAR की सही जानकारी है पाना तो...</span>
+            </div>
+        </div>
+        <button class="menu-toggle" aria-label="Toggle menu"><i class="fas fa-bars"></i></button>
+        <nav class="nav-links">
+            <a href="#hero" class="active">Home</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-  <section id="services">
-    <h2>Our Services</h2>
-    <div class="services">
-      <div class="service">
-        <i class="fas fa-solar-panel"></i>
-        <h3>Solar Installation</h3>
-        <p>High-performance rooftop and ground-mounted solar panel setups.</p>
-      </div>
-      <div class="service">
-        <i class="fas fa-battery-full"></i>
-        <h3>Battery Storage</h3>
-        <p>Reliable backup solutions for continuous power day and night.</p>
-      </div>
-      <div class="service">
-        <i class="fas fa-network-wired"></i>
-        <h3>Grid Integration</h3>
-        <p>Expert grid-tied and off-grid solar energy systems.</p>
-      </div>
-      <div class="service">
-        <i class="fas fa-tools"></i>
-        <h3>Maintenance</h3>
-        <p>Annual inspections, system health checks, and real-time monitoring.</p>
-      </div>
+    <section class="hero-banner" id="hero">
+        <div class="hero-content">
+            <h1>Welcome to City Engineer Solarwala</h1>
+            <p>Empowering India with clean & sustainable solar energy 🌞</p>
+            <a href="#contact" class="hero-btn">Get in Touch</a>
+        </div>
+    </section>
+    <!-- Vision, Mission, Motto Cards -->
+    <div class="value-cards">
+        <!--<div class="value-cards">-->
+        <div class="value-card" data-aos="fade-up" data-aos-delay="100">
+            <i class="fas fa-eye icon"></i>
+            <h3>Our Vision</h3>
+            <p>We believe everyone has the right to generate their own energy—solar or wind—and contribute to India’s growth and sustainability.</p>
+        </div>
+        <div class="value-card highlighted" data-aos="fade-up" data-aos-delay="300">
+            <i class="fas fa-bullseye icon"></i>
+            <h3>Our Mission</h3>
+            <p>To lead the solar revolution by providing innovative, accessible, and reliable energy solutions for every home and industry.</p>
+        </div>
+        <div class="value-card" data-aos="fade-up" data-aos-delay="500">
+            <i class="fas fa-lightbulb icon"></i>
+            <h3>Our Motto</h3>
+            <p><strong>Think <span class="highlight">ACT</span> SAVE</strong><br>Save money, save energy, and build a brighter, cleaner future.</p>
+        </div>
     </div>
-  </section>
 
-  <section id="projects">
-  <h2>Recent Projects</h2>
-  <div class="projects">
-    <div class="project-card">
-      <img src="https://source.unsplash.com/400x250/?solar,rooftop" alt="Residential Solar Installation">
-      <h3>Residential Rooftop Solar</h3>
-      <p>Installed a 5kW rooftop solar panel system for a family in Kanpur, reducing their monthly electricity bill by 80%.</p>
+
+
+
+
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <p class="service-intro">
+            <strong>🌱</strong> Keep your environment clean & make our Earth green. Support clean energy and electric mobility for a sustainable future.
+        </p>
+
+        <div class="services">
+            <div class="service">
+                <i class="fas fa-solar-panel"></i>
+                <h3>Solar Installation</h3>
+                <p>High-performance rooftop and ground-mounted solar panel setups.</p>
+            </div>
+
+            <div class="service">
+                <i class="fas fa-battery-full"></i>
+                <h3>Battery Storage</h3>
+                <p>Reliable backup solutions for continuous power day and night.</p>
+            </div>
+
+            <div class="service">
+                <i class="fas fa-network-wired"></i>
+                <h3>Grid Integration</h3>
+                <p>Expert grid-tied and off-grid solar energy systems.</p>
+            </div>
+
+            <div class="service">
+                <i class="fas fa-tools"></i>
+                <h3>Maintenance</h3>
+                <p>Annual inspections, system health checks, and real-time monitoring.</p>
+            </div>
+
+            <div class="service">
+                <i class="fas fa-charging-station"></i>
+                <h3>EV Charging Station</h3>
+                <p>Smart AC/DC EV chargers for homes, offices, and public spaces. Supports Bharat, CCS2, and CHAdeMO. Solar-powered and app-enabled solutions for clean, future-ready mobility.</p>
+            </div>
+
+            <div class="service">
+                <i class="fas fa-plug"></i>
+                <h3>EV Charger Equipment</h3>
+                <p>Supply of AC and DC chargers, connectors, cables, and smart controllers. Compatible with all major EV standards for residential and commercial use.</p>
+            </div>
+
+            <div class="service">
+                <i class="fas fa-user-tie"></i>
+                <h3>Consulting & Projects</h3>
+                <p>End-to-end consulting for solar & EV projects. Site survey, load analysis, ROI planning, and government approvals for homes, societies, and businesses.</p>
+            </div>
+
+            <div class="service">
+                <i class="fas fa-hard-hat"></i>
+                <h3>EPC Solutions</h3>
+                <p>Complete Engineering, Procurement & Construction services for solar plants and EV infrastructure. From design to delivery, we manage it all.</p>
+            </div>
+
+            <div class="service">
+                <i class="fas fa-water"></i>
+                <h3>Module Cleaning Wiper</h3>
+                <p>Supply and installation of manual and automated solar panel wipers for efficient dust removal and performance improvement.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="projects" class="project-section">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project-card">
+                <img src="images/projects/1.jpg" alt="Bhonwal School">
+                <div class="project-icon"><i class="fas fa-school"></i></div>
+                <h3>Bhonwal School of Engineering</h3>
+                <p>Installed a 50KW solar system enabling clean and efficient power generation.</p>
+            </div>
+            <div class="project-card">
+                <img src="images/projects/3.png" alt="Safari Cold Storage">
+                <div class="project-icon"><i class="fas fa-industry"></i></div>
+                <h3>Safari Cold Storage & ICE Factory Pvt. Ltd.</h3>
+                <p>Complete industrial solar integration with 300KW capacity, reducing energy costs and boosting sustainability.</p>
+            </div>
+            <div class="project-card">
+                <img src="images/projects/2.webp" alt="GSRMMPG College">
+                <div class="project-icon"><i class="fas fa-university"></i></div>
+                <h3>G.S.R.M.M.P.G. College</h3>
+                <p>Deployed a 100KW solar system powering classrooms, labs, and water facilities sustainably.</p>
+            </div>
+            <div class="project-card">
+                <img src="images/projects/4.png" alt="डॉ. भीमराव अंबेडकर निजी ITI">
+                <div class="project-icon"><i class="fas fa-university"></i></div>
+                <h3>डॉ. भीमराव अंबेडकर निजी ITI</h3>
+                <p>Deployed a 30KW solar system powering classrooms, labs, and water facilities sustainably.</p>
+            </div>
+            <div class="project-card">
+                <img src="images/projects/5.png" alt="JK Cement">
+                <div class="project-icon"><i class="fas fa-industry"></i></div>
+                <h3>JK Cement Ltd.</h3>
+                <p>Successfully executed a 25KW industrial solar integration, significantly reducing energy costs and enhancing sustainability.</p>
+            </div>
+            <div class="project-card">
+                <img src="images/projects/6.png" alt="JK Cement">
+                <div class="project-icon"><i class="fas fa-building"></i></div>
+                <h3>The Arcas Hotel</h3>
+                <p>Successfully implemented a 25KW solar power system, helping the hotel reduce operational energy costs and promote eco-friendly hospitality.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+
+        <h2>Our Contacts Or Locations</h2>
+
+        <div class="location-tabs">
+            <button class="tab-button" onclick="showLocation(event, 'lucknow')">Lucknow</button>
+            <button class="tab-button" onclick="showLocation(event, 'banda')">Banda</button>
+            <button class="tab-button active" onclick="showLocation(event, 'baberu')">Baberu</button>
+            <button class="tab-button" onclick="showLocation(event, 'karwi')">Karwi</button>
+        </div>
+        <div class="projects">
+            <div class="location-content">
+                <!-- Baberu Panel -->
+                <div class="location-panel" id="lucknow">
+                    <div class="contact-card">
+                        <div class="contact-details">
+                            <h3>Lucknow Head Office</h3>
+                            <p><i class="fas fa-envelope"></i> cityengineersolarwala@gmail.com</p>
+                            <p><i class="fas fa-phone"></i> +91-9170646823</p>
+                            <p><strong>Address:</strong> Gate No.2, in front of Naveen Mandi, Tindwari Road, Baberu, UP 210121</p>
+                            <!--<div class="social-links">
+                                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                                <a href="https://www.instagram.com/cityengineersolarwala/reel/C4LW_WJvPQa/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </div>-->
+                        </div>
+                        <div class="map-container">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3599.7339846559794!2d80.69169507522345!3d25.54723647748726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399cafff77ae8f75%3A0xad9561b16e8b14b3!2sCity%20Mantra!5e0!3m2!1sen!2sin!4v1753702611911!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Baberu Panel -->
+                <div class="location-panel active" id="baberu">
+                    <div class="contact-card">
+                        <div class="contact-details">
+                            <h3>Baberu Branch</h3>
+                            <p><i class="fas fa-envelope"></i> cityengineersolarwala@gmail.com</p>
+                            <p><i class="fas fa-phone"></i> +91-9170646823</p>
+                            <p><strong>Address:</strong> Gate No.2, in front of Naveen Mandi, Tindwari Road, Baberu, UP 210121</p>
+                            <!--<div class="social-links">
+                                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                                <a href="https://www.instagram.com/cityengineersolarwala/reel/C4LW_WJvPQa/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </div>-->
+                        </div>
+                        <div class="map-container">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3599.7339846559794!2d80.69169507522345!3d25.54723647748726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399cafff77ae8f75%3A0xad9561b16e8b14b3!2sCity%20Mantra!5e0!3m2!1sen!2sin!4v1753702611911!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Banda Panel -->
+                <div class="location-panel" id="banda">
+                    <div class="contact-card">
+                        <div class="contact-details">
+                            <h3>Banda Branch</h3>
+                            <p><i class="fas fa-envelope"></i> bandaoffice@cityengineer.com</p>
+                            <p><i class="fas fa-phone"></i> +91-9876543210</p>
+                            <p><strong>Address:</strong> Near Station Road, Banda, UP 210001</p>
+                            <!--<div class="social-links">
+                                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>-->
+                        </div>
+                        <div class="map-container">
+                            <iframe src="https://maps.google.com/maps?q=Banda%20UP&t=&z=13&ie=UTF8&iwloc=&output=embed" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <!-- karvi Panel -->
+                <div class="location-panel" id="karwi">
+                    <div class="contact-card">
+                        <div class="contact-details">
+                            <h3>Karwi Branch</h3>
+                            <p><i class="fas fa-envelope"></i> bandaoffice@cityengineer.com</p>
+                            <p><i class="fas fa-phone"></i> +91-9876543210</p>
+                            <p><strong>Address:</strong> Near Station Road, Banda, UP 210001</p>
+                            <!--<div class="social-links">
+                                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>-->
+                        </div>
+                        <div class="map-container">
+                            <iframe src="https://maps.google.com/maps?q=Banda%20UP&t=&z=13&ie=UTF8&iwloc=&output=embed" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 City Engineer Solarwala. All rights reserved.</p>
+            <div class="developer-brand">
+                <span>Website developed by</span>
+                <a href="https://www.rkmatrix.co.in/" target="_blank" class="blink-link">
+                    RKMatrix–Software Solutions (<span class="url-text">www.rkmatrix.co.in</span>)
+                </a>
+
+            </div>
+        </div>
+    </footer>
+
+    <div class="whatsapp-float">
+        <a href="https://wa.me/917607646823" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
     </div>
-    
-    <div class="project-card">
-      <img src="https://source.unsplash.com/400x250/?solar,farm" alt="Solar Farm Installation">
-      <h3>Commercial Solar Farm</h3>
-      <p>Commissioned a 50kW solar farm for a factory near Banda, ensuring uninterrupted clean energy for 24/7 production.</p>
-    </div>
-    
-    <div class="project-card">
-      <img src="https://source.unsplash.com/400x250/?solar,school" alt="School Solar Project">
-      <h3>School Energy Project</h3>
-      <p>Deployed a 10kW solar system at a rural school in Baberu, powering classrooms, labs, and water facilities sustainably.</p>
-    </div>
-  </div>
-</section>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        document.addEventListener('contextmenu', function (e) {
+            e.preventDefault();
+        });
 
 
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <div class="contact-wrapper">
-      <div class="contact-details">
-        <p><i class="fas fa-envelope" style="color: #00bcd4;"></i><strong>Email:</strong> cityengineersolarwala@gmail.com</p>
-        <p><i class="fas fa-phone" style="color: #4caf50;"></i><strong>Phone:</strong> +91 7607646823</p>
-        <p><i class="fas fa-map-marker-alt" style="color: #e91e63;"></i><strong>Location:</strong> Gate No.2, Road, in front of Naveen Mandi<br> Tindwari Road, Baberu, UP 210121</p>
-        <p>
-          <a href="#" target="_blank" style="color: #1877f2; text-decoration: none;">
-            <i class="fab fa-facebook-square" style="font-size: 1.5rem; margin-right: 8px;"></i>
-            <strong>Follow us on Facebook</strong>
-          </a>
-       </p>
-        <p>
-          <a href="https://www.instagram.com/cityengineersolarwala/reel/C4LW_WJvPQa/" target="_blank" style="color: #833AB4; text-decoration: none;">
-            <i class="fab fa-instagram" style="font-size: 1.5rem; margin-right: 8px; color:#833AB4;"></i>
-            <strong>Follow us on Instagram</strong>
-          </a>
-      </p>
-      </div>
-      <div style="flex: 1 1 500px;">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3599.733984655979!2d80.69169507522348!3d25.54723647748727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399cafff77ae8f75%3A0xad9561b16e8b14b3!2sCity%20Mantra!5e0!3m2!1sen!2sin!4v1752337834232!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
-    </div>
-  </section>
+        AOS.init({
+            once: true
+        });
 
-  <footer>
-    <div class="footer-content">
-      <p>&copy; 2025 City Engineer Solarwala. All rights reserved.</p>
-      <div class="developer-brand">
-        <span>Website developed by</span>
-        <img src="images/logo/rklogo.png" alt="Developer Logo">
-        <a href="https://www.rkmatrix.co.in/" target="_blank" style="color: #ccc;">RKMatrix – Innovative Software Solutions</a>
-      </div>
-    </div>
-  </footer>
+        const heroBanner = document.querySelector('.hero-banner');
+        const images = [
+            "url('images/hero/1.jpg')",
+            "url('images/hero/2.jpg')",
+            "url('images/hero/3.jpg')"
+        ];
 
-  <div class="whatsapp-float">
-    <a href="https://wa.me/917607646823" target="_blank"><i class="fab fa-whatsapp"></i></a>
-  </div>
+        let currentIndex = 0;
 
-  <script>
-    document.addEventListener("DOMContentLoaded", () => {
-      const navLinks = document.querySelectorAll(".nav-links a");
-      const nav = document.querySelector(".nav-links");
-      const toggleBtn = document.querySelector(".menu-toggle");
+        setInterval(() => {
+            currentIndex = (currentIndex + 1) % images.length;
+            heroBanner.style.backgroundImage = `linear-gradient(rgba(255, 241, 184, 0.7), rgba(198, 40, 40, 0.7)), ${images[currentIndex]}`;
+        }, 3000); // Switch every 3 seconds
 
-      // Toggle nav visibility
-      toggleBtn.addEventListener("click", () => {
-        nav.classList.toggle("show");
-      });
 
-      // Active link on scroll
-      function updateActiveLink() {
-        const scrollPos = window.scrollY + 120;
+        const navLinks = document.querySelectorAll(".nav-links a");
+        const nav = document.querySelector(".nav-links");
+        const toggleBtn = document.querySelector(".menu-toggle");
+
+        toggleBtn.addEventListener("click", () => {
+            nav.classList.toggle("show");
+        });
+
+        function updateActiveLink() {
+            const scrollPos = window.scrollY + 120;
+            navLinks.forEach(link => {
+                const section = document.querySelector(link.getAttribute("href"));
+                if (section && section.offsetTop <= scrollPos && section.offsetTop + section.offsetHeight > scrollPos) {
+                    navLinks.forEach(l => l.classList.remove("active"));
+                    link.classList.add("active");
+                }
+            });
+        }
+
+        window.addEventListener("scroll", updateActiveLink);
+        window.addEventListener("load", updateActiveLink);
+
         navLinks.forEach(link => {
-          const section = document.querySelector(link.getAttribute("href"));
-          if (section && section.offsetTop <= scrollPos && section.offsetTop + section.offsetHeight > scrollPos) {
-            navLinks.forEach(l => l.classList.remove("active"));
-            link.classList.add("active");
-          }
+            link.addEventListener("click", () => {
+                navLinks.forEach(l => l.classList.remove("active"));
+                link.classList.add("active");
+                nav.classList.remove("show");
+            });
         });
-      }
 
-      window.addEventListener("scroll", updateActiveLink);
-      window.addEventListener("load", updateActiveLink);
+        function showLocation(event, id) {
+            document.querySelectorAll('.location-panel').forEach(panel => {
+                panel.classList.remove('active');
+            });
 
-      navLinks.forEach(link => {
-        link.addEventListener("click", () => {
-          navLinks.forEach(l => l.classList.remove("active"));
-          link.classList.add("active");
-          nav.classList.remove("show"); // close menu on link click
-        });
-      });
-    });
-  </script>
+            document.querySelectorAll('.tab-button').forEach(btn => {
+                btn.classList.remove('active');
+            });
+
+            document.getElementById(id).classList.add('active');
+            event.currentTarget.classList.add('active');
+        }
+
+    </script>
 
 </body>
 </html>
